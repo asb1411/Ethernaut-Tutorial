@@ -38,7 +38,7 @@ contract Shop {
 
 contract Buyer {
   Shop s;
-  address ss = 0xBc4791b1517D9A1de9a5068cf432727A5DC78158;
+  address ss = addr;
 
   // We will use the public isSold variable to manipulate the return value of price() function
   // If the item is unsold yet, price() will return originalPrice
